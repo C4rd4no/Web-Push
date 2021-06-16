@@ -5,8 +5,8 @@ keys = webpush.generateVAPIDKeys();
 console.log(keys);
 const vapidKeys = {
   publicKey:
-    'BIoS-dNNhrUd3gCs7lEmy7uAK3oep1IeRK1x4o9T_FglWVABlQd90HY6jfcLSbI8jmgnHDhmywifXkHhHM_F7hs',
-  privateKey: 'u9QvaB3zY4W5W-ECQtHJhOi-qneC2Kn3zrszSDLbB0Q'
+    'BPDfBeH6xZ5BQIV0z4xrYsk8pEW5hGZlbNTpDpN0oX6gsk69S7LuT6e1qzV0tMHaDlsAzadtk19imELF8PpjrDE',
+  privateKey: 'tsoc3zXHYQmX3uEj7QyCe9nOanQpIc8mXOuKaI3jxSE'
 };
 
 webpush.setVapidDetails(
