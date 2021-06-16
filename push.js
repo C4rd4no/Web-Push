@@ -13,12 +13,11 @@ push.setVapidDetails(
 );
 
 const client = {
-  "endpoint":"https://par02p.notify.windows.com/w/?token=BQYAAABc14xeSmPjxLUifsOubt3guSVlWlngORrAa5CMQ9IXSLX4R70jidClTcapcNCzFFf9Isd4JAdtqRkX3ZksU%2fWXIOdywO%2bfgE7imJcDqBL4RklEvx6ZLlwZIz6iygLhjWKlPNNT5BXhSUkxprGs2feyxM34bo%2fmU0jU0AT16ZvI7K3EdF4XQYcPMG3Xm%2bi1z3jNmzuT8%2fBjrdgFqUMusee1KfJutoIgJw1sFvI%2bJPeHMVE7lV8MeYV0UeufX%2bFylZ7NA0TcN22BWSJyMRdds8bquVuQClLQHQZ5pZr9bfuoAoq59s%2f75fbKRSCP7ObJGXQ%3d",
+  "endpoint":"https://par02p.notify.windows.com/w/?token=BQYAAADTmhN3FU6bd%2fsMpKXmG9naE%2fn9r%2bgV2nfcJNnaBbCOVulhK2LL%2bhuzmZf3zuYCbT5g9QwPZQOfmGwgizw4KAK60pTAQKnxJiumwdbQBAR1V6YTKpgOEGYWzKGmZHf4JNxaAjR2lWwoKemrv9eJIFVYGHm%2fHvOiAIaAZ93eZ%2bTM%2f50lycAOndB4FZPkdg2FMmdSZExdFSZxb3Nt%2fcBRmAmKUj6B0LoqGlJYPxQKiWIAyRLkRP%2b3LdDDUMDa%2bpEQX1UHVhbI%2b7IGTRJMxYs5oIK6Iu5FlmslxLdph8ChmvfUFS0h%2blfqrQpOOgeg2NcnXD841NrMR%2fgE4zNFopfHRHg7djZRPqTuAN6570AXCnpxwA%3d%3d",
   "expirationTime":null,
   "keys":{
-    "p256dh":"BJvdZKev5TAwI1Iu-2T6r4b3ifzKBl73IcH7dW7yqEV7_yX1WZ2WyuEt4v_DWraHro77W5rjKfeRnnAbQFSiCg4",
-    "auth":"Q29R74YvPI72eI2xt9rziw"
-  }
+    "p256dh":"BBxajg1qyDNg0eE2g7HPotkTKhQsPH-bdGODarCkCo_5mnZ_yh_WFqjML_zDUfwppYJQK9LdPEj_ryjQT15GZFc",
+    "auth":"O1YFvVHk-1FP6Xdr9kjdwA"}
 };
 
 push.sendNotification(client,'Random cat');
