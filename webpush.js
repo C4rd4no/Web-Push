@@ -15,10 +15,11 @@ webpush.setVapidDetails(
 
 // This is the same output of calling JSON.stringify on a PushSubscription
 const pushSubscription = {
-  endpoint: '.....',
+  endpoint: 'https://par02p.notify.windows.com/w/?token=BQYAAABp0PXm1SaIGSbLL3DcGq9bH8tW7UoEM7uDz4otCQ%2f7INzGYPuGrYbIx2fFVBJQNwk7b6BU%2fiMCcXnBj8aOBDx6t4fvgKUF8nrSIfbhDlGG3ovrhIYwoUxCtt1Oq9CuWG%2bwa2ksT1b8WvbYJDFIk0aHuucZj3CpN7BPTUNZYnfdX5Jml9nZaRbLDpKPFpeREKoECzAhzfaYdW5exQzvD3isyMHnZBh4yUWY9R1jMWnOHYdBVJvCmFXJrKCHu3pSSD4yzcQzp6eNnFDx4F%2boM7KnPjMc45AvjM7GDgpQRYFKsDrFcbfaTg9Vsj5lvbtZ511mdb365VNldU%2fHnbEerDeeWYPMCp4i3xC3r%2bqn%2fF35MA%3d%3d',
+  expirationTime: null,
   keys: {
-    auth: '.....',
-    p256dh: '.....'
+    auth: 'UyYmGGDJiEcCSzkLp3M72Q',
+    p256dh: 'BJvarqqMsZqREqs_VPRe2IwG4LQB5pfYpHnRs8XcjNEnkA30RAIqHwbOvyn0l8ahkgCeNha5_lC830lPzQvH5oE'
   }
 };
 
