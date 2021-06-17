@@ -11,11 +11,11 @@ webpush.setVapidDetails('mailto:example@yourdomain.org', vapidKeys.publicKey, va
 
 
 var pushSubscription = {
-  endpoint: 'https://par02p.notify.windows.com/w/?token=BQYAAAD0phZKfb3ZfZsyHDgj8mYjF2vu8aDbyUDgecUqozwFnQSagmdeTDUCHMmZJYY1rfnQ7rmKLhn2%2bfTcF4ZZDPUoPXU7VHIhQ5nVf60MRoIZzdIrix4yurLiDiGwIrvWyoNfaxebo77B1wOVYc9PPvjAb0mmUeSdXWcXlbR%2fSH0tKNxp4JovZQUJxFz2du10G31CVr3FEag2ZhGQU2nZ4%2bgCs%2bHGfZnkpUjfp1553qVEi1r%2bto4aKiXxq%2fWQ3PMYTiTLGEQMwUeIqA%2fM6FbS1dvKHXaKCZbjflSz6uC2Bbr5NADW1taw2qHBL5Ul4WafluG56rX0Ln37SJDttVwIVJwzVGaUblzPn6Qf170%2fq5mTQQ%3d%3d',
-  expirationTime: null,
+  endpoint:"https://par02p.notify.windows.com/w/?token=BQYAAABgD23MCUAkCYrfQgctla3O%2bd2aICJwtm2kZno%2b17C58Ij5fVyfTcCQC0%2bPv4e7uoIGxCmfFPL%2f3%2fHdfuFUAr1KH5GZ1LTLD6Nnw8Me1543h0rs9CT3qY%2fetH7ouxuTBgUI77L7OWwYW%2b%2fuK716gT45V8S%2fCnSsMmRxiRQDZnid0npVfWtMmYYaOTrY3Anhh1wOIIISPkHwbhXGcm8d36k9T%2fvGbtKirArZBMhnlYIyUDxIO96oiE16AkVT9wXVZcfr%2fxClSHly0jBskybd5w49uhrDg0vPaw04dxmhly0VNWdrK7wUHIugxeBCJ2Fdq5EHUTcFRhBsViZAZcU3%2fmIYxa8WVgSgWlX%2f4WzcDPlQww%3d%3d",
+  expirationTime:null,
   keys:{
-    p256dh: 'BNSNEbDbpqgQHCMtdQDbTDOyDmfKMjj5da_D_CVql5Aokxlf4pgVpggB-H6De3gYqIVtVHwaV9vJiHc877YQ-zw',
-    auth: 'I-KgP6VBk3He_jkajX8c2A'
+    p256dh:"BA00xvPvAmM7oR6XwCBPYTqQZxjcVx3BY_QBOTiJNxuc61XRriXQczjxC-ByZFZcEpy83S2YaenYMePFFjAHWGM",
+    auth:"UF9IT99_dxwHccszYfq4qw"
   }
 };
 
