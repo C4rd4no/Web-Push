@@ -1,4 +1,5 @@
-self.addEventListener('push', () => {
+self.addEventListener('push', (e) => {
+
   var options = {
     body: 'Let see',
     icon: '',
@@ -21,5 +22,5 @@ self.addEventListener('push', () => {
     ]
   }  
 
-  self.registration.showNotification('Hello world!', options);
+  e.waitUntil(self.registration.showNotification('Random Cat for you!', options));
 });
