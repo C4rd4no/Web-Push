@@ -1,4 +1,4 @@
-self.addEventListener('push', (e) => {
+self.addEventListener('push', function(e) {
   console.log('here we are')
   var options = {
     body: 'Let see',
@@ -20,7 +20,7 @@ self.addEventListener('push', (e) => {
         icon: ''
       }
     ]
-  }  
+  };  
 
   e.waitUntil(self.registration.showNotification('Random Cat for you!', options));
 });

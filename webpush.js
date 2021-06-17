@@ -1,25 +1,21 @@
-const webpush = require('web-push');
+var webpush = require('web-push');
 
 // VAPID keys should only be generated only once.
+console.log("try");
+const vapidKeys = { 
+  publicKey: 'BO1L_j-YwtnrNq19d6HnHd0k2pQPdOIegecqFzSi5u_biRSv_HcfdbMu5_hQ8otRtSZ8zNqnEm7d1MtsARV0uZ4',
+  privateKey: 'MuLyWZrEve0mRqOif1H_WVE8ubPQCBqPd0oUMKmDwos' 
+}
 
-const vapidKeys = {
-  publicKey: 'BMBKo0RxtYzc22eA6Hl2Vo700DpgjrRd0fABdrk2_iMY2n46KHF5GVxrmAmcIVWp4_6GW_3CusPa6-5FyiJMcqo',
-  privateKey: 'exw_AWAHEVuaMLjbJiTJ0PYP4rn2Sxejp17Uf0zGNyI'
-};
+webpush.setVapidDetails('mailto:example@yourdomain.org', vapidKeys.publicKey, vapidKeys.privateKey);
 
-webpush.setVapidDetails(
-  'mailto:example@yourdomain.org',
-  vapidKeys.publicKey,
-  vapidKeys.privateKey
-);
 
-// This is the same output of calling JSON.stringify on a PushSubscription
-const pushSubscription = {
-  "endpoint":"https://par02p.notify.windows.com/w/?token=BQYAAABaiN1FumHwfMtISkELcmvp3qtreDOXOhZNK3G3QsMP%2f0APvD%2fqGfGdrq43ZsBXd6hw7zLX0gxvPu%2f0ytrSs3ZfNSTtMTQ0p2mJYqfaXyhaOlztTxbClqSk4oOdoaSlcT5sRIwhjT4hl%2fQBXRYv0octLd3um2Qf3hHWI2o2gH8rn2hm0TnDQfL1843aGPpysuFwu6AstBj0iiTTtEYlFDFslsrrbF0yhyXThHEdfnqrnGGmWmN1FPU1ux7A2kVc3gYseMUDypAB5Kulx14mnw6aTmHOKf%2f3uIEPThzE%2f%2fmzhKPnRSwpWozay5Awfatty3Nidu1sBCwZey3nHFRK%2f1k50RXqgV0%2f05mamyhDmaEvrA%3d%3d",
-  "expirationTime":null,
-  "keys":{
-    "p256dh":"BPrqcVMj6NHx6rytcSpkCuRCnGE1JRzwuildIFKV5nNBoadkhlBZzAGWVEggitZ9V8-ii7rNW0k0gJzrrr95nEk",
-    "auth":"r93x22oQOUX1EsgqQKc2Fw"
+var pushSubscription = {
+  endpoint: 'https://par02p.notify.windows.com/w/?token=BQYAAAD0phZKfb3ZfZsyHDgj8mYjF2vu8aDbyUDgecUqozwFnQSagmdeTDUCHMmZJYY1rfnQ7rmKLhn2%2bfTcF4ZZDPUoPXU7VHIhQ5nVf60MRoIZzdIrix4yurLiDiGwIrvWyoNfaxebo77B1wOVYc9PPvjAb0mmUeSdXWcXlbR%2fSH0tKNxp4JovZQUJxFz2du10G31CVr3FEag2ZhGQU2nZ4%2bgCs%2bHGfZnkpUjfp1553qVEi1r%2bto4aKiXxq%2fWQ3PMYTiTLGEQMwUeIqA%2fM6FbS1dvKHXaKCZbjflSz6uC2Bbr5NADW1taw2qHBL5Ul4WafluG56rX0Ln37SJDttVwIVJwzVGaUblzPn6Qf170%2fq5mTQQ%3d%3d',
+  expirationTime: null,
+  keys:{
+    p256dh: 'BNSNEbDbpqgQHCMtdQDbTDOyDmfKMjj5da_D_CVql5Aokxlf4pgVpggB-H6De3gYqIVtVHwaV9vJiHc877YQ-zw',
+    auth: 'I-KgP6VBk3He_jkajX8c2A'
   }
 };
 
