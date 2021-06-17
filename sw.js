@@ -1,5 +1,5 @@
 self.addEventListener('push', (e) => {
-
+  console.log('here we are')
   var options = {
     body: 'Let see',
     icon: '',
