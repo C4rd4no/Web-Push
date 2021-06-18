@@ -4,38 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Web-push-demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
   </head>
   <body>
-    <button id = "facebook">Twitter</button>
-    <button id = "twitter">Facebook</button>
+    <h1 class="ui header center aligned">Web Push Demo</h1>
+    <div class="ui placeholder segment">
+      <div class="ui two column very relaxed stackable grid">
+        <div class="center aligned column">
+          <div class="ui big button " id ="facebook">
+            <i class="signup icon"></i>
+            Feliratkozás Facebook kérdőívekre
+          </div>
+        </div>
+        <div class="center aligned column">
+          <div class="ui big button" id ="twitter">
+            <i class="signup icon"></i>
+            Feliratkozás Twitter kérdőívekre
+          </div>
+        </div>
+      </div>
+      <div class="ui vertical divider">
+        Or
+      </div>
+    </div>
 
-    <!-- <script>
-      async function subscribeTwitter() {
-        let sw = await navigator.serviceWorker.ready;
-        let push = await sw.pushManager.subscribe({
-          userVisibleOnly: true,
-          applicationServerKey: "BBZY7Q3KEtZArAAWMLi_qzWHbH4vAoqPpIXnRhmlUaw0PVs1Kt_2fgLhuaVI5i8MWASBKx3d6W6UoH2U3qChw9U",
-        });
-        console.log(JSON.stringify(push));
-      }
-
-      async function subscribeFacebook() {
-        let sw = await navigator.serviceWorker.ready;
-        let push = await sw.pushManager.subscribe({
-          userVisibleOnly: true,
-          applicationServerKey: "BJNOw3KXRV5tZbN9JPA3Q8frBP8gbc5LR_l0KHD2433fanOM5OUJPon6p1P31RzyhrzEDnRu7FKvClExMo4r1wA",
-        });
-        console.log(JSON.stringify(push));
-      }
-
-
-      if ('serviceWorker' in navigator) {
-        addEventListener('load', async () => {
-          let sw = await navigator.serviceWorker.register('./sw.js');
-        });
-      }
-    </script> -->
     <script src="./subscriber.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-self.addEventListener('push', function(e) {
+self.addEventListener('push', (e) => {
   
   var options = {
     body: 'Az oldalunkon var a kerdoived',
