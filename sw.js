@@ -2,11 +2,9 @@ self.addEventListener('push', (e) => {
   
   var options = {
     body: 'Az oldalunkon var a kerdoived',
-    icon: 'icon.png',
-    vibrate: [100,50,100],
+    icon: '',
     data:{
       dateOfArrival:Date.now(),
-      primaryKey: '2',
     },
     actions:[
       {
