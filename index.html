@@ -7,10 +7,11 @@
     <title>Document</title>
   </head>
   <body>
-    <button onclick="subscribe()">Subscribe</button>
+    <button onclick="subscribeTwitter()">Twitter</button>
+    <button onclick="subscribeFacebook()">Facebook</button>
 
     <script>
-      async function subscribe() {
+      async function subscribeTwitter() {
         let sw = await navigator.serviceWorker.ready;
         let push = await sw.pushManager.subscribe({
           userVisibleOnly: true,
@@ -18,6 +19,16 @@
         });
         console.log(JSON.stringify(push));
       }
+
+      async function subscribeTwitter() {
+        let sw = await navigator.serviceWorker.ready;
+        let push = await sw.pushManager.subscribe({
+          userVisibleOnly: true,
+          applicationServerKey: "BJNOw3KXRV5tZbN9JPA3Q8frBP8gbc5LR_l0KHD2433fanOM5OUJPon6p1P31RzyhrzEDnRu7FKvClExMo4r1wA",
+        });
+        console.log(JSON.stringify(push));
+      }
+
 
       if ('serviceWorker' in navigator) {
         addEventListener('load', async () => {

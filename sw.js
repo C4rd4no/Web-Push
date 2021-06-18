@@ -10,13 +10,13 @@ self.addEventListener('push', function(e) {
     },
     actions:[
       {
-        action: 'explore',
-        title:'Explore this new world',
+        action: 'Ugras az oldalra',
+        title:'Ugras az oldalra title',
         icon: ''
       },
       {
         action: 'close',
-        title:'Close',
+        title:'Lusta vagyok',
         icon: ''
       }
     ]

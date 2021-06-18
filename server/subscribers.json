@@ -5,19 +5,19 @@
         "privateKey": "CZtf_JUxmXkCKbzwaKedPPO9BFC99U2rk-GUYDbYAa8"
       },
       "subscriber":{
-        "endpoint":"",
+        "endpoint":"https://par02p.notify.windows.com/w/?token=BQYAAACRSH4%2bcZfeNiateaaFKE3UpVKAd3pFwGyZqAR1EIUrj0vWzGaXSyyaxia4XITkBkh25VxV99CMwMpQz76hiXZJ21ITo6C6pl%2bhAzjAPik6VeOy8YJ0rLTjC%2b449vrEAOxG4nhbWvmYsfiMAqyhFx1tevaX5yeOw%2fv4lHKuXW0lrm4im%2f3aZAOeduKcnV4JN7xp71ygRQg2PhvWTiBDorOsP0DJG7mjrQiQtXUvxosIKvlOmMVo1CuqmhElAk2g0C%2fh9TB0nkqR6locvg%2bRc7PC%2bADXYb8%2f8KvLcE90ujX99NHo3fpPSlPRzE5FH3Bqtlzhdv4%2bRacFtEhJP3oUmT5znRYXETznqxk9KYDRDhZIEw%3d%3d",
         "expirationTime":null,
         "keys":{
-          "p256dh":"",
-          "auth":""
+          "p256dh":"BMrlYaCTbrIiSzItnUs36fRCBSbBMlmtyazYAb_acJmwlxLPrGWCpooT9PD39elPJ6Rxt_1xGPr8EcXQeYWU24U",
+          "auth":"kyZ5xmsvcfCnJm4GSfOr3A"
         }
       }
   },
 
   "facebook": {
     "vapidKeys": {
-      "publicKey": "BBZY7Q3KEtZArAAWMLi_qzWHbH4vAoqPpIXnRhmlUaw0PVs1Kt_2fgLhuaVI5i8MWASBKx3d6W6UoH2U3qChw9U",
-      "privateKey": "CZtf_JUxmXkCKbzwaKedPPO9BFC99U2rk-GUYDbYAa8"
+      "publicKey": "BJNOw3KXRV5tZbN9JPA3Q8frBP8gbc5LR_l0KHD2433fanOM5OUJPon6p1P31RzyhrzEDnRu7FKvClExMo4r1wA",
+      "privateKey": "qOhl62gS7HuJj6vv4_aSRa_PYLkScnUojeuoVBer4yg"
     },
     "subscriber":{
       "endpoint":"",

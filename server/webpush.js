@@ -4,9 +4,8 @@ const fs = require('fs');
 const data = fs.readFileSync('subscribers.json');
 const subscribers = JSON.parse(data);
 
-console.log(subscribers.twitter)
-
-
+// const keys = webpush.generateVAPIDKeys();
+// console.log(keys);
 
 const setVapidKeys = ( keys ) => {
   webpush.setVapidDetails(
