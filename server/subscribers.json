@@ -5,11 +5,11 @@
         "privateKey": "CZtf_JUxmXkCKbzwaKedPPO9BFC99U2rk-GUYDbYAa8"
       },
       "subscriber":{
-        "endpoint":"https://par02p.notify.windows.com/w/?token=BQYAAAA26SkSkcChL%2bm0jqMnL%2fP4DLG0ZkxsiBQgrbmwfzD6XQGdulB1owYSSfRut69X633MSJO4sRwOJWJXFBv%2bvjA3ai3CRQTsGBrqC0i27Dwgi7aSNEzhxmMsWCKl0rnlH4x6lOiwMiXSRoYSPpffu6PhNimfcQlZb%2blZaoNPuEqdbu6ltXMwiKk7Q1LbgjZm2mQEqNlLS34sozI%2fmEZJgZlGeOYj9LgKHJoE2zN9omeQ13tFc%2b65kyOkSsgzJ8%2bnhmAFnpYcZSV25UA2fiRdMAigSz%2f51jpwVWWZZDLvgecHFo6L%2fglJBo5WFeEBa9WExvcHuZoyXPqCuG2DT2dLAOMZJ3yJNFsCPifqhD5n7wbowA%3d%3d",
+        "endpoint":"https://par02p.notify.windows.com/w/?token=BQYAAAAv5dzuqiw44Z8biQyDM5xGsqeXf%2ff4MJZYRriPo6KoNqD%2bNifTJoaGpDkRN7ZGyD8tgL1em6CRPRMEcCVKssY3UFNS%2fTjrSKTfcMd7%2fmi1CrPKnxOfuMp%2fgUbNeIjs1ZL%2foXsldnYke9O1hj%2bnoD2Ant7LiQIFODPoeu0zR5wH%2b53uobOH6XSQx12aHIR8%2f4OKyAQh%2f1BoRiBJSSXYKXIrRxjhIeaSs1uHKWoTFE4IS8fJIACukVPO1AtF7MPIQYmGDty904EogZSrfOzCklQ4h7613qPTYUIsfP5Zqn5qnHUnBUDTAPZCqOE1XBHGz7GmSn%2fTN8MIKE7ltC%2fZqEtpMORx2LiZF7mgQ%2b8usJJndQ%3d%3d",
         "expirationTime":null,
         "keys":{
-          "p256dh":"BLES4yw7OQrAzNAoavXeZx5JZ5NiUDxWPimFv2dyOPUi9asK2v9UMWeoQj6qe6oxM2h88w7EkyQD_rEn1N1JoxM",
-          "auth":"rHL3vGOHr6735DAaWSpwFg"
+          "p256dh":"BNZz4uTdAtfWNsV3ZXYtqYXqeXa2fdwTUSBanMA-W0ddo1t0m_KPcjyRVQcDV5vXQmk1_boof4hFH1894t9PQSM",
+          "auth":"HEVzZLUhjUuPiz4aUFcVWg"
         }
       }
   },
@@ -19,12 +19,11 @@
       "publicKey": "BJNOw3KXRV5tZbN9JPA3Q8frBP8gbc5LR_l0KHD2433fanOM5OUJPon6p1P31RzyhrzEDnRu7FKvClExMo4r1wA",
       "privateKey": "qOhl62gS7HuJj6vv4_aSRa_PYLkScnUojeuoVBer4yg"
     },
-    "subscriber":{
-      "endpoint":"https://par02p.notify.windows.com/w/?token=BQYAAAA26SkSkcChL%2bm0jqMnL%2fP4DLG0ZkxsiBQgrbmwfzD6XQGdulB1owYSSfRut69X633MSJO4sRwOJWJXFBv%2bvjA3ai3CRQTsGBrqC0i27Dwgi7aSNEzhxmMsWCKl0rnlH4x6lOiwMiXSRoYSPpffu6PhNimfcQlZb%2blZaoNPuEqdbu6ltXMwiKk7Q1LbgjZm2mQEqNlLS34sozI%2fmEZJgZlGeOYj9LgKHJoE2zN9omeQ13tFc%2b65kyOkSsgzJ8%2bnhmAFnpYcZSV25UA2fiRdMAigSz%2f51jpwVWWZZDLvgecHFo6L%2fglJBo5WFeEBa9WExvcHuZoyXPqCuG2DT2dLAOMZJ3yJNFsCPifqhD5n7wbowA%3d%3d",
+    "subscriber":{"endpoint":"https://par02p.notify.windows.com/w/?token=BQYAAAA%2bLrsW3n6WLsVfqtq4qWW5AcmGzQFwwul0fbenvTVdRKgJj1r7%2bSaCiaul95HcyHrbypntEdTkGlEts8CUvUsKIR9tiDYH6c%2bX8Jqb%2bJqmCYXDCnlQL3tbUDrVtLXRAr%2fMwY9rWwmj8naYoHWEaOGlDIXPu%2fmZ0VJXVGvjzomIlboSaXZxGf5U6mmY1xfpsYBoT%2b%2fdkKYOqDHp372VGqjR3J6OEWxNfNXek7BYgacZJ0XRBC6Vk4TUJBaNK7m0DYGsWXXVRI1ey76rwMLyq%2fzw4k8Qwf5tWu16alqEYER10lK4ARuYm7mNu0zXcVf29RVRuuQ3%2bu8%2bYCJ5ynej46dHO1GjpMPUKm9wbnzlWXEQZQ%3d%3d",
       "expirationTime":null,
       "keys":{
-        "p256dh":"BLES4yw7OQrAzNAoavXeZx5JZ5NiUDxWPimFv2dyOPUi9asK2v9UMWeoQj6qe6oxM2h88w7EkyQD_rEn1N1JoxM",
-        "auth":"rHL3vGOHr6735DAaWSpwFg"
+        "p256dh":"BJ2EKeYfJdQDOXpun-YY3kBtuRNxNv6U-YGmApA1ca5iq2dpaEfxQI2mHeT2gu4cZce-Fx_R_fZ6ZN8NimdISu4",
+        "auth":"bIbkZz6LwGuJItBXLcJMUQ"
       }
     }
   }

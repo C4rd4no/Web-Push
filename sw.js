@@ -2,7 +2,7 @@ self.addEventListener('push', (e) => {
   
   var options = {
     body: 'Az oldalunkon var a kerdoived',
-    icon: '',
+    icon: './assets/icon/icon.png',
     vibrate: [100,50,100],
     data:{
       dateOfArrival:Date.now(),
