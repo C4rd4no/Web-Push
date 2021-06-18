@@ -20,7 +20,7 @@
         console.log(JSON.stringify(push));
       }
 
-      async function subscribeTwitter() {
+      async function subscribeFacebook() {
         let sw = await navigator.serviceWorker.ready;
         let push = await sw.pushManager.subscribe({
           userVisibleOnly: true,
