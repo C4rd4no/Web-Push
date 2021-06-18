@@ -7,10 +7,10 @@
     <title>Document</title>
   </head>
   <body>
-    <button onclick="subscribeTwitter()">Twitter</button>
-    <button onclick="subscribeFacebook()">Facebook</button>
+    <button id = "facebook">Twitter</button>
+    <button id = "twitter">Facebook</button>
 
-    <script>
+    <!-- <script>
       async function subscribeTwitter() {
         let sw = await navigator.serviceWorker.ready;
         let push = await sw.pushManager.subscribe({
@@ -35,6 +35,7 @@
           let sw = await navigator.serviceWorker.register('./sw.js');
         });
       }
-    </script>
+    </script> -->
+    <script src="./subscriber.js"></script>
   </body>
 </html>

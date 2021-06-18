@@ -20,11 +20,11 @@
       "privateKey": "qOhl62gS7HuJj6vv4_aSRa_PYLkScnUojeuoVBer4yg"
     },
     "subscriber":{
-      "endpoint":"",
+      "endpoint":"https://par02p.notify.windows.com/w/?token=BQYAAADYPszFuf5XdJLxkJo%2fgheHwSTW7H8EOmbEAwcsASPdr3k7qEs0Lw4chxkIH0b%2f3gQG0bSG6NqmMGvr7%2fV2562CSfStblr76rC2tNrTgIZrWlDwzTrzpvlpYUSRul%2b7N%2fWkaOrE9VU6j9vpBuCXLCbDOH3dA0pQBmv477%2bBxvf2sVX%2b83Yjw2pB3HYa4z0hi%2flE9MarDB0h5cqpp%2fuVHb2sB8iBpQorwiBKXtHMpNAFmf48U7X6lCS9kA0zjtzcuxj78vc8x9rshgSi5O53cUkCln9vYnTwZZEo6gE%2fgfQr2iDuBUyYQmO8%2b6dt79I5XXmp%2bzpaZTZj6z7ndKlmxmMP%2bLONXDptvlQYzZ1VwH2bPw%3d%3d",
       "expirationTime":null,
       "keys":{
-        "p256dh":"",
-        "auth":""
+        "p256dh":"BGFiaNwke4SppjgdbKWC_3chiCb3WIoVzEUcq0hE-736qaEx2vX3FEXsistFAf4NKneyVV0l3oGjsWnGQ-AcSvw",
+        "auth":"I0wH5YXsxS_tlXi_apOViw"
       }
     }
   }
