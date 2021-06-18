@@ -20,6 +20,6 @@ const send = ( company ) => {
   webpush.sendNotification( subscribers[company].subscriber, 'Payload' ).catch( err => console.error(err) );
 }
 
-send("twitter");
+//send("twitter");
 send("facebook");
 

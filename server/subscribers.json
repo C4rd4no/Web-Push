@@ -19,12 +19,6 @@
       "publicKey": "BJNOw3KXRV5tZbN9JPA3Q8frBP8gbc5LR_l0KHD2433fanOM5OUJPon6p1P31RzyhrzEDnRu7FKvClExMo4r1wA",
       "privateKey": "qOhl62gS7HuJj6vv4_aSRa_PYLkScnUojeuoVBer4yg"
     },
-    "subscriber":{"endpoint":"https://par02p.notify.windows.com/w/?token=BQYAAAA%2bLrsW3n6WLsVfqtq4qWW5AcmGzQFwwul0fbenvTVdRKgJj1r7%2bSaCiaul95HcyHrbypntEdTkGlEts8CUvUsKIR9tiDYH6c%2bX8Jqb%2bJqmCYXDCnlQL3tbUDrVtLXRAr%2fMwY9rWwmj8naYoHWEaOGlDIXPu%2fmZ0VJXVGvjzomIlboSaXZxGf5U6mmY1xfpsYBoT%2b%2fdkKYOqDHp372VGqjR3J6OEWxNfNXek7BYgacZJ0XRBC6Vk4TUJBaNK7m0DYGsWXXVRI1ey76rwMLyq%2fzw4k8Qwf5tWu16alqEYER10lK4ARuYm7mNu0zXcVf29RVRuuQ3%2bu8%2bYCJ5ynej46dHO1GjpMPUKm9wbnzlWXEQZQ%3d%3d",
-      "expirationTime":null,
-      "keys":{
-        "p256dh":"BJ2EKeYfJdQDOXpun-YY3kBtuRNxNv6U-YGmApA1ca5iq2dpaEfxQI2mHeT2gu4cZce-Fx_R_fZ6ZN8NimdISu4",
-        "auth":"bIbkZz6LwGuJItBXLcJMUQ"
-      }
-    }
+    "subscriber":{"endpoint":"https://par02p.notify.windows.com/w/?token=BQYAAAD1U4AVjExa0E84zYItbtbR44RHzUGvwx3xYrbeOGIpj2IIfaVVfz%2bnokdMiDcIYx8ZY8xEiEf8oTE%2fJvvkxRJfHis48EMEGAKHviiadnEaujgeHQi0HR81X77ioVGSBKjMriNsY8uwkQjT9RB1t7t3AebtgttH%2bgH9e8UZs7HZR3zDKOnYu5bbRE8LZYLTTKEwpNBDcBnf0XjDNGkIBTnqoByLYdarnYSzE%2bKRaYqB0LFKt98BJW2wCyGgmH01cA8LwdqsUe9x3j3WuYdkJ7cThEpIULAMJbLFH9y9TP8tGWw8DqEL6xf5y8ZwQIKq6wRFVdc0MSQu1KTD9vkP9fm7izx6Z3QS%2fK%2bNZoOIFQa5bA%3d%3d","expirationTime":null,"keys":{"p256dh":"BHHU9Xpom_NeGGKLjfOx6VZ9Hkn4UKi6GVCLVW0mAmvxSW6ZQDiYt_cpjPe-AWRg02PqtubXWV1PCXC4740PD1A","auth":"y7-yDUUEEa6F8G-TfQnC5g"}}
   }
 }
