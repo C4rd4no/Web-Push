@@ -19,6 +19,6 @@
       "publicKey": "BJNOw3KXRV5tZbN9JPA3Q8frBP8gbc5LR_l0KHD2433fanOM5OUJPon6p1P31RzyhrzEDnRu7FKvClExMo4r1wA",
       "privateKey": "qOhl62gS7HuJj6vv4_aSRa_PYLkScnUojeuoVBer4yg"
     },
-    "subscriber":{"endpoint":"https://par02p.notify.windows.com/w/?token=BQYAAAD1U4AVjExa0E84zYItbtbR44RHzUGvwx3xYrbeOGIpj2IIfaVVfz%2bnokdMiDcIYx8ZY8xEiEf8oTE%2fJvvkxRJfHis48EMEGAKHviiadnEaujgeHQi0HR81X77ioVGSBKjMriNsY8uwkQjT9RB1t7t3AebtgttH%2bgH9e8UZs7HZR3zDKOnYu5bbRE8LZYLTTKEwpNBDcBnf0XjDNGkIBTnqoByLYdarnYSzE%2bKRaYqB0LFKt98BJW2wCyGgmH01cA8LwdqsUe9x3j3WuYdkJ7cThEpIULAMJbLFH9y9TP8tGWw8DqEL6xf5y8ZwQIKq6wRFVdc0MSQu1KTD9vkP9fm7izx6Z3QS%2fK%2bNZoOIFQa5bA%3d%3d","expirationTime":null,"keys":{"p256dh":"BHHU9Xpom_NeGGKLjfOx6VZ9Hkn4UKi6GVCLVW0mAmvxSW6ZQDiYt_cpjPe-AWRg02PqtubXWV1PCXC4740PD1A","auth":"y7-yDUUEEa6F8G-TfQnC5g"}}
+    "subscriber":{"endpoint":"https://par02p.notify.windows.com/w/?token=BQYAAABThyXl4rk6TEiPVCGDHzGBf3oOdWzZIGcUR3QvokMWorZGwmuXKkwXppnH910WD4EUWNvnRQGA5zLhPg%2fDfa0bje5zWDLc%2bJZaThT2vTHYhe4qfaKDZUKEpRHaBt%2bJY44rrI8tmZXPDFwKUTls%2bviDTYn1KraK%2bB3YEEl7OS0ZlVpUjq0FcvEGW1BY7DxWsHj7xJoRDAXo0P08X2RzUSkbSc6C6%2fq5bdkQDzImLsEJmukiU3ZMYM4vI%2bEEcMY124mKi54%2fIdaed0SVxusJ1HAb7xYzUaadrmdbuf8GNC6j%2fCyldy3tDHKbgiLU%2b2yzR%2brhsJiQDJAP4vrbapg9zPVdtDOfippcsp1TJuQCMUSSzA%3d%3d","expirationTime":null,"keys":{"p256dh":"BNAJFdT4CEbWFc1BnlHllIhAM9txGF_vN_7MYzPLHPZGkgsxFrS_6nvdYo-cLobxnBs_PT91BSYPJrs6-MzlS7E","auth":"i7NhlDdTycUARCj8pdz77g"}}
   }
 }
