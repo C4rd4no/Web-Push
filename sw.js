@@ -1,8 +1,7 @@
 self.addEventListener('push', function(e) {
-  console.log('here we are');
   
   var options = {
-    body: 'Let see',
+    body: 'Az oldalunkon var a kerdoived',
     icon: '',
     vibrate: [100,50,100],
     data:{
@@ -23,5 +22,5 @@ self.addEventListener('push', function(e) {
     ]
   };  
 
-  e.waitUntil(self.registration.showNotification('Random Cat for you!', options));
+  e.waitUntil(self.registration.showNotification('Van kitotletelen kerdoived!', options));
 });
