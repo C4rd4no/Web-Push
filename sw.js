@@ -1,24 +1,14 @@
 self.addEventListener('push', (e) => {
   
   var options = {
-    body: 'Az oldalunkon var a kerdoived',
-    icon: '',
+    body: JSON.parse(e.payload).body,
+    icon: JSON.parse(e.payload).iconUrl,
+    image: JSON.parse(e.payload).imageUrl,
     data:{
       dateOfArrival:Date.now(),
+      url: JSON.parse(e.payload).onclickUrl,
     },
-    actions:[
-      {
-        action: 'open',
-        title:'Ugras az oldalra',
-        icon: ''
-      },
-      {
-        action: 'close',
-        title:'Lusta vagyok kitolteni',
-        icon: ''
-      }
-    ]
   };  
 
-  e.waitUntil(self.registration.showNotification('Van kitotletelen kerdoived!', options));
+  e.waitUntil(self.registration.showNotification(JSON.parse(e.payload).title, options));
 });
