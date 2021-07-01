@@ -1,6 +1,11 @@
 self.addEventListener('push', (e) => {
   const payload = e.data.json();
-  var options = {
+
+  self.addEventListener("notificationclick", event => {
+    event.waitUntil(clients.openWindow(payload.onclickUrl));
+  });
+  
+  const options = {
     
     body: payload.body,
     icon: payload.iconUrl,
