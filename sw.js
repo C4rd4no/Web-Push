@@ -1,5 +1,5 @@
 self.addEventListener('push', (e) => {
-  console.log(JSON.parse(e.payload));
+  console.log(e);
   var options = {
     
     body: JSON.parse(e.payload).body,
