@@ -1,5 +1,5 @@
 self.addEventListener('push', (e) => {
-  if(current.time)
+  
   var payload = e.data.json();
 
   var date = new Date();
