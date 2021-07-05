@@ -1,7 +1,7 @@
 self.addEventListener('push', (e) => {
 
   var payload = e.data.json();
-
+  console.log(e);
   var date = new Date();
   var time = {
     hour: date.getHours(),
