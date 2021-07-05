@@ -1,5 +1,5 @@
 self.addEventListener('push', (e) => {
-  
+
   var payload = e.data.json();
 
   var date = new Date();
@@ -8,6 +8,8 @@ self.addEventListener('push', (e) => {
     min: date.getMinutes()
   };
 
+  console.log(time);
+  console.log(payload.time);
   const options = {
     body: payload.body,
     icon: payload.iconUrl,
