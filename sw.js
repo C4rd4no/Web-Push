@@ -1,6 +1,6 @@
 self.addEventListener('push', (e) => {
   if(current.time)
-  const payload = e.data.json();
+  var payload = e.data.json();
 
   var time = {
     hour: today.getHours(),
