@@ -1,13 +1,9 @@
-self.addEventListener('push', (e) => {
-
-  var payload = e.data.json();
-  console.log(e);
+const send = (payload) => {
   var date = new Date();
   var time = {
     hour: date.getHours(),
     min: date.getMinutes()
   };
-
   console.log(time);
   console.log(payload.time);
   const options = {
@@ -18,10 +14,14 @@ self.addEventListener('push', (e) => {
       url: payload.onclickUrl,
     },
   };
-
   if(payload.time.min === time.min){
-    e.waitUntil(self.registration.showNotification(payload.title, options));
+    self.registration.showNotification(payload.title, options);
   }
+}
+
+self.addEventListener('push', (e) => {
+  var payload = e.data.json();
+  e.waitUntil(send(payload));
 });
 
 self.addEventListener("notificationclick", (e) => {
