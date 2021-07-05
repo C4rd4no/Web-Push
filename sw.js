@@ -2,9 +2,10 @@ self.addEventListener('push', (e) => {
   if(current.time)
   var payload = e.data.json();
 
+  var date = new Date();
   var time = {
-    hour: today.getHours(),
-    min:today.getMinutes()
+    hour: date.getHours(),
+    min: date.getMinutes()
   };
 
   const options = {
