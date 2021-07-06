@@ -4,8 +4,6 @@ const send = (payload) => {
     hour: date.getHours(),
     min: date.getMinutes()
   };
-  console.log(time);
-  console.log(payload.time);
   var options = {
     body: payload.body,
     icon: payload.iconUrl,
@@ -19,8 +17,9 @@ const send = (payload) => {
     self.registration.showNotification(payload.title, options);
   }else{
     self.registration.getNotifications().then(function(notifications) {
-      notifications.forEach(notification => notification.close());
-    }) 
+      // notifications.forEach(notification => connotification.close());
+      console.log(notifications);
+    })
     
   }
 }
