@@ -15,8 +15,8 @@ const send = (payload) => {
     },
   };
   self.registration.showNotification(payload.title, options);
-  if(payload.time.min === time.min){
-    getNotifications(options).then(function(notifications) {
+  if(payload.time.min !== time.min){
+    self.getNotifications(options).then(function(notifications) {
       console.log(notifications);
     })
   
