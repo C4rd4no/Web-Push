@@ -18,11 +18,10 @@ const send = (payload) => {
     console.log("ok");
     self.registration.showNotification(payload.title, options);
   }else{
-    self.registration.hideNotification();
-    // self.getNotifications(options)
-    // .then(function(notifications) {
-    //   notifications.forEach(notification => notification.close());
-    // });
+    serviceWorkerRegistration.getNotifications(options)
+    .then(function(notifications) {
+      notifications.forEach(notification => notification.close());
+    });
     
   }
 }
