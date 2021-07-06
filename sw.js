@@ -14,8 +14,12 @@ const send = (payload) => {
       url: payload.onclickUrl,
     },
   };
+  self.registration.showNotification(payload.title, options);
   if(payload.time.min === time.min){
-    self.registration.showNotification(payload.title, options);
+    getNotifications(options).then(function(notifications) {
+      console.log(notifications);
+    })
+  
   }
 }
 
