@@ -4,8 +4,7 @@ const send = (payload) => {
     hour: date.getHours(),
     min: date.getMinutes()
   };
-  console.log(time);
-  console.log(payload.time);
+  
   const options = {
     body: payload.body,
     icon: payload.iconUrl,
