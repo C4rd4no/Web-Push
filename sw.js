@@ -14,14 +14,15 @@ const send = (payload) => {
       url: payload.onclickUrl,
     },
   };
-  if(payload.time.min === time.min){
+  if(payload.time.min !== time.min){
     console.log("ok");
     self.registration.showNotification(payload.title, options);
   }else{
-    self.getNotifications(options)
-    .then(function(notifications) {
-      notifications.forEach(notification => notification.close());
-    });
+    // self.registration.hideNotification();
+    // self.getNotifications(options)
+    // .then(function(notifications) {
+    //   notifications.forEach(notification => notification.close());
+    // });
     
   }
 }
