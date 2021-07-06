@@ -15,7 +15,7 @@ const send = (payload) => {
   };
   console.log(payload.time.min);
   console.log(time.min);
-  if(payload.time.min === time.min){
+  if(payload.time.minutes === time.min){
     self.registration.showNotification(payload.title, options);
   }
 }
