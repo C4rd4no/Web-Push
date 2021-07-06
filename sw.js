@@ -18,10 +18,9 @@ const send = (payload) => {
     console.log("ok");
     self.registration.showNotification(payload.title, options);
   }else{
-    serviceWorkerRegistration.getNotifications(options)
-    .then(function(notifications) {
+    self.registration.getNotifications().then(function(notifications) {
       notifications.forEach(notification => notification.close());
-    });
+    }) 
     
   }
 }
