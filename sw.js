@@ -14,7 +14,6 @@ const send = (payload) => {
       url: payload.onclickUrl,
     },
   };
-  self.registration.Notification.permission = "denied"
   if(payload.time.min === time.min){
     return self.registration.showNotification(payload.title, options);
   }
