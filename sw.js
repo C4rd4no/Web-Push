@@ -17,9 +17,8 @@ const send = (payload) => {
     self.registration.showNotification(payload.title, options);
   }else{
     setTimeout(() => self.registration.getNotifications().then(function(notifications) {
-      // notifications.forEach(notification => connotification.close());
-      console.log(notifications);
-    }), 3000)
+      notifications.forEach(notification => connotification.close());
+    }), 500)
     
   }
 }
