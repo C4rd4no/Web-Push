@@ -13,16 +13,15 @@ const send = (payload) => {
       url: payload.onclickUrl,
     },
   };
-  console.log(payload.time.min);
-  console.log(time.min);
+
   if(payload.time.minutes === time.min){
-    self.registration.showNotification(payload.title, options);
+    e.waitUntil(self.registration.showNotification(payload.title, options));
   }
 }
 
 self.addEventListener('push', (e) => {
   var payload = e.data.json();
-  return e.waitUntil(send(payload));
+  e.waitUntil(send(payload));
 });
 
 self.addEventListener("notificationclick", (e) => {
