@@ -14,11 +14,9 @@ const send = (payload) => {
       url: payload.onclickUrl,
     },
   };
-  self.registration.showNotification(payload.title, options).then(function (data) {
-    self.registration.getNotifications().then(function (notifications) {
-      notifications.forEach(notification => notification.close());
-    })
-})
+  if(payload.time.min === time.min){
+    self.registration.showNotification(payload.title, options);
+  }
 }
 
 self.addEventListener('push', (e) => {
