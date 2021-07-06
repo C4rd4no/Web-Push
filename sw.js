@@ -16,10 +16,10 @@ const send = (payload) => {
     console.log("ok");
     self.registration.showNotification(payload.title, options);
   }else{
-    self.registration.getNotifications().then(function(notifications) {
+    setTimeout(() => self.registration.getNotifications().then(function(notifications) {
       // notifications.forEach(notification => connotification.close());
       console.log(notifications);
-    })
+    }), 3000)
     
   }
 }
