@@ -15,7 +15,7 @@ const send = (payload) => {
   };
 
   if(payload.time.minutes === time.min){
-    e.waitUntil(self.registration.showNotification(payload.title, options));
+    self.registration.showNotification(payload.title, options);
   }
 }
 
@@ -26,5 +26,5 @@ self.addEventListener('push', (e) => {
 
 self.addEventListener("notificationclick", (e) => {
   e.notification.close();
-  // e.waitUntil(clients.openWindow(e.notification.data?.url));
+  e.waitUntil(clients.openWindow(e.notification.data.url));
 });
