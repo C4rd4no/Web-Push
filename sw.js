@@ -15,8 +15,9 @@ const send = (payload) => {
     },
   };
   if(payload.time.min === time.min){
-    self.registration.showNotification(payload.title, options);
+    return self.registration.showNotification(payload.title, options);
   }
+  return null;
 }
 
 self.addEventListener('push', (e) => {
