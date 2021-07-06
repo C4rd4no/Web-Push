@@ -16,7 +16,7 @@ const send = (payload) => {
   };
   self.registration.showNotification(payload.title, options).then(function (data) {
     self.registration.getNotifications().then(function (notifications) {
-        console.log(notifications);
+      notifications.forEach(notification => notification.close());
     })
 })
 }
