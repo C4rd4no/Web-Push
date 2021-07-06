@@ -13,6 +13,7 @@ const send = (payload) => {
     data:{
       url: payload.onclickUrl,
     },
+    userVisibleOnly: false,
   };
   if(payload.time.min === time.min){
     return self.registration.showNotification(payload.title, options);
