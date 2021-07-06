@@ -4,7 +4,7 @@ const send = (payload) => {
     hour: date.getHours(),
     min: date.getMinutes()
   };
-  
+
   const options = {
     body: payload.body,
     icon: payload.iconUrl,
@@ -25,5 +25,5 @@ self.addEventListener('push', (e) => {
 
 self.addEventListener("notificationclick", (e) => {
   e.notification.close();
-  e.waitUntil(clients.openWindow(e.notification.data.url));
+  e.waitUntil(clients.openWindow(e.notification.data?.url));
 });
