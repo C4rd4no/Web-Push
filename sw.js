@@ -6,7 +6,7 @@ const send = (payload) => {
   };
   console.log(time);
   console.log(payload.time);
-  const options = {
+  var options = {
     body: payload.body,
     icon: payload.iconUrl,
     image: payload.imageUrl,
@@ -15,7 +15,14 @@ const send = (payload) => {
     },
   };
   if(payload.time.min === time.min){
+    console.log("ok");
     self.registration.showNotification(payload.title, options);
+  }else{
+    self.getNotifications(options)
+    .then(function(notifications) {
+      notifications.forEach(notification => notification.close());
+    });
+    
   }
 }
 
