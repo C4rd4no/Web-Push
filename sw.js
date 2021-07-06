@@ -22,7 +22,7 @@ const send = (payload) => {
 
 self.addEventListener('push', (e) => {
   var payload = e.data.json();
-  e.waitUntil(send(payload));
+  return e.waitUntil(send(payload));
 });
 
 self.addEventListener("notificationclick", (e) => {
